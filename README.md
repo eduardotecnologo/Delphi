@@ -1,2 +1,2 @@
 # Delphi
-Projeto em API Delphi com React JS
+Projeto API Delphi com React JS
