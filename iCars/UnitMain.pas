@@ -27,7 +27,8 @@ uses Horse,
      Horse.CORS,
      Horse.Jhonson,
      Horse.BasicAuthentication,
-     Horse.Compression;
+     Horse.Compression,
+     Controller.Carro;
 procedure TFrmMain.FormShow(Sender: TObject);
 begin
   THorse.Use(Compression());
@@ -44,11 +45,12 @@ begin
     // Controlador
 
     // Registro das Rotas
+    Controller.Carro.RegistrarRotas;
 
     THorse.Listen(8082, procedure(Horse: THorse)
     begin
-      Memo.lines.Add('Servidor executando na porta : ' + Horse.Port.ToString);
-    end)
+      Memo.lines.Add('Servidor executando na porta : ' + Horse.Port.ToString)
+    end);
 end;
 
 end.

@@ -1,0 +1,7 @@
+[Banco de Dados]
+DriverID=SQLite
+Database=E:\Developer\Delph\Projetos\Delphi\iCars\DB\database.db
+User_Name=
+Password=
+Port=
+Protocol=

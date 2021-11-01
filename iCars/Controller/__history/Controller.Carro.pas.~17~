@@ -1,0 +1,22 @@
+unit Controller.Carro;
+
+interface
+
+uses Horse,
+      System.JSON,
+      System.SysUtils,
+      Controller.Comum;
+      // DAO.Carro;
+
+procedure RegistrarRotas;
+
+implementation
+
+procedure RegistrarRotas;
+begin
+    THorse.Get('/carros', ListarCarros);
+    THorse.Get('/carros/:id_carro', ListarCarrosId);
+    THorse.Post('/carros', CadastrarCarro);
+end;
+
+end.

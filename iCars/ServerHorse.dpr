@@ -4,7 +4,9 @@ uses
   System.StartUpCopy,
   FMX.Forms,
   UnitMain in 'UnitMain.pas' {FrmMain},
-  Controller.Caroo in 'Controller\Controller.Caroo.pas';
+  Controller.Carro in 'Controller\Controller.Carro.pas',
+  Controller.Comum in 'Controller\Controller.Comum.pas',
+  DAO.Connection in 'DAO\DAO.Connection.pas';
 
 {$R *.res}
 
