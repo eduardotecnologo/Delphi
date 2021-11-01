@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2021/11/01 14:04:17.268,=C:\Users\E\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/11/01 14:04:58.586,E:\Developer\Delph\Projetos\Delphi\iCars\UnitMain.pas=C:\Users\E\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/11/01 14:04:58.586,E:\Developer\Delph\Projetos\Delphi\iCars\UnitMain.fmx=C:\Users\E\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2021/11/01 14:05:08.399,E:\Developer\Delph\Projetos\Delphi\iCars\ServerHorse.dproj=C:\Users\E\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/11/01 14:15:49.830,=E:\Developer\Delph\Projetos\Delphi\iCars\Unit1.pas</Transaction>
+    <Transaction>2021/11/01 14:17:04.625,E:\Developer\Delph\Projetos\Delphi\iCars\Controller\Controller.Caroo.pas=E:\Developer\Delph\Projetos\Delphi\iCars\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
